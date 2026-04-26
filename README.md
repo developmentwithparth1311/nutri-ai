@@ -47,4 +47,4 @@ The frontend is built to be modular. Below are the key areas for backend connect
 - **Environment Variables:** All API keys should be placed in a `.env` file. A `.gitignore` is already configured to prevent sensitive keys from being pushed.
 
 ---
-**Maintained by Parth Kumbhar & Aaryan Patil** | Computer Engineering '26
+**Maintained by Parth Kumbhar, Aaryan Patil, Harshal Patil & Parth Thakur** | Computer Engineering '26
