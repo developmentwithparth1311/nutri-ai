@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom'; // Added this
+import { Link } from 'react-router-dom';
 import LaptopHero from '../components/LaptopHero';
 
 const Landing = () => {
@@ -31,9 +31,9 @@ const Landing = () => {
       {/* Hero Content */}
       <main className="max-w-7xl mx-auto px-12 grid md:grid-cols-[1fr_1.4fr] items-center min-h-[80vh] relative z-10">
         <div className="space-y-8">
-          <div className="inline-block px-4 py-1.5 rounded-full bg-white/5 border border-white/10 text-[10px] font-bold uppercase tracking-widest text-purple-400">
+          {/* <div className="inline-block px-4 py-1.5 rounded-full bg-white/5 border border-white/10 text-[10px] font-bold uppercase tracking-widest text-purple-400">
             ✨ Your Intelligent Nutritionist
-          </div>
+          </div> */}
           <h1 className="text-7xl lg:text-8xl font-black leading-[0.95] text-white tracking-tighter">
             Smarter<br />Tracking.<br />
             <span className="bg-gradient-to-r from-purple-400 to-blue-500 bg-clip-text text-transparent">Better You.</span>

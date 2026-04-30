@@ -13,12 +13,10 @@ const Chat = () => {
     e.preventDefault();
     if (!input.trim()) return;
 
-    // User message add karo
     const newMessages = [...messages, { role: 'user', content: input }];
     setMessages(newMessages);
     setInput('');
 
-    // Fake Bot Response
     setTimeout(() => {
       setMessages(prev => [...prev, {
         role: 'bot',
